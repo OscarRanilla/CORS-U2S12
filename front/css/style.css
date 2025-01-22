@@ -1,0 +1,141 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background: url('https://images.unsplash.com/photo-1589022822278-2e110fbf8ae8?fit=crop&w=1350&q=80') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* MIS CSS */
+
+body { 
+    line-height: 1; 
+    background: url('../assets/img/giorgio-trovato-H5PJ3z4WqCc-unsplash.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: #ffcc00; /* Color amarillo Pokémon */
+    text-shadow: 2px 2px #000;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contenedor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+input {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffcc00; /* Color amarillo Pokémon */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+button:hover {
+    background-color: #ff9900; /* Color naranja Pokémon */
+    box-shadow: 0 4px #666;
+}
+
+#pokemonInfo img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border: 3px solid #ffcc00; /* Borde amarillo Pokémon */
+    border-radius: 10px;
+}
+
+#pokemonInfo p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
